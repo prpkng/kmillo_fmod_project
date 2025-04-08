@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{3d2deee2-7f64-462a-b466-991c6828d9a1}">
+		<property name="name">
+			<value>EQEffect</value>
+		</property>
+		<relationship name="folder">
+			<destination>{e7f5e1ea-ef1b-4788-a274-7fdf4ca766aa}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{95bbd293-b8bd-4192-86a4-6130e1c7b34b}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{95bbd293-b8bd-4192-86a4-6130e1c7b34b}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="velocity">
+			<value>-0.94999998807907104</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{6cf34154-45e2-4b08-9882-0b0f11e7339d}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{6cf34154-45e2-4b08-9882-0b0f11e7339d}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="clockSource">
+			<value>1</value>
+		</property>
+		<property name="speedAscending">
+			<value>10</value>
+		</property>
+		<property name="asymmetric">
+			<value>true</value>
+		</property>
+	</object>
+</objects>

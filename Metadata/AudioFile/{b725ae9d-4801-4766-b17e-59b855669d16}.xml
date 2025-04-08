@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{b725ae9d-4801-4766-b17e-59b855669d16}">
+		<property name="assetPath">
+			<value>sfx_whewn.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>3.6287291666666666</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b482b8c7-4c0e-44a4-98c5-4f1585968ac6}</destination>
+		</relationship>
+	</object>
+</objects>

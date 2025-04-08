@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{6aec02ae-6591-4ceb-b7c4-56953729d997}">
+		<property name="assetPath">
+			<value>sfx_hurt.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.115</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b482b8c7-4c0e-44a4-98c5-4f1585968ac6}</destination>
+		</relationship>
+	</object>
+</objects>
